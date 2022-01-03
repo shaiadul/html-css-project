@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photo/3-00.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: cornsilk;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.5s ease;
+
+}
+ul li a:hover{
+    background-color: rgb(105, 174, 214);
+    color: rgb(27, 31, 25);
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.main{
+    max-width: 1900px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: rgb(105, 174, 214);
+    color: rgb(27, 31, 25);
+    
+}
+
+.title{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: wheat;
+    font-size: 80px;
+}
+.button{
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+.btn{
+    color: rgb(201, 214, 198);
+    font-size: 40px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 30px ;
+    border-radius: 7px;
+    margin: 3px;
+    background-color: rgb(104, 153, 104);
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: rgb(103, 152, 192);
+    color: rgb(53, 63, 68);
+}
